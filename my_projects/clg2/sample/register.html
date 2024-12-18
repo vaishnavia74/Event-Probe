@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>register</title>
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="navbar"> 
+                <div class="logo">
+                    <label> <a href="index.html"><img class="image" src="./img/lg1.jpg"  width=50px; height=50px; alt=""></a></label>
+                    <p>College2023</p>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul> 
+                <!-- <label id="icon">
+                    <i class="fas fa-bars"></i>
+                </label> -->
+            </div>
+        </header>
+    
+        <section class="hai">
+            <div class="regbox">
+                <div class="reg">
+                    <h2>Register Here</h2> <br>
+                    <form id="register" method="post" action="dbconnect.php">
+                    <label for="">Name:</label>
+                    
+                    <input type="text" name="name" id="name" placeholder="enter your name">
+                    <br><br>
+                    <label > Username:</label>
+                    
+                    <input type="text" name="name" id="username" placeholder="enter your UserId">
+                    <br><br>
+                    <label for=""> College:</label>
+                    
+                    <input type="text" name=" college" id="clgname" placeholder="enter your college name">
+                    
+                    <label for=""> College Roll No:</label>
+                    
+                    <input type="text" name="roll.no" id="roll_no" placeholder="enter your rollnumber">
+                    <br><br>
+                    <label for=""> Field:</label>
+
+                    <input type="text" name="field" id="field" placeholder="enter your course">
+                    <label for=""> Branch:</label>
+                    
+                    <input type="text" name="" id="branch" >
+                    <br><br>
+                    <label for=""> year of study:</label>
+                    
+                    <input type="text" name="n" id="year" placeholder="curently studying year">
+                    <br><br>
+                    <label for=""> Phone Number:</label>
+                    
+                    <input type="number" name="name" id="phnum" placeholder="enter your phone number">
+                    <br><br>
+                    <label for="">Gender</label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female">
+                    &nbsp;
+                    <span id="female">Female</span>
+                    <br><br>
+                    <label for=""> Email:</label>
+                    
+                    <input type="email" name="name" id="email" placeholder="enter your valid email">
+                    
+                    <label >Password: </label>
+                    <input type="text" name="password" id="password" placeholder="enter 8-20 char">
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit">
+                </form>
+                </div>
+            </div>
+    
+            
+        </section>
+
+    </body>
+    
+</html>

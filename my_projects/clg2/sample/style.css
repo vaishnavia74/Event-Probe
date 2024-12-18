@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times;
+    
+}
+
+.navbar{
+    background: rgb(16, 64, 173);
+    height: 80px;
+    width:100%;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size: 35px;
+    float: left;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+    line-height: 80px;
+
+    
+}
+.logo label{
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    border: radius 100px ;
+    position: relative;
+
+}
+.image{
+    border-radius: 50%
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+}
+.navbar li{
+    display: inline-block;
+    line-height:80px; ;
+    margin:0 8px;
+}
+.navbar a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px,10px;
+    border-radius: 3px;
+}
+.navbar ul li a:hover{
+    color: rgb(225, 237, 64);
+    transition: .5s;
+}
+/* .navbar #icon{
+    color:rgb(11, 1, 1);
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor:pointer;
+    display:none;
+} */
+ @media (max-width:1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    .navbar ul{
+        margin-right: 20px;
+    }
+    .navbar a{
+        font-size: 17px;
+    }
+}
+/* @media (max-width:909px){
+    .navbar #icon{
+        display: block;
+    }
+    .navbar ul{
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(11, 91, 211);
+        top: 80px;
+        left:0;
+        text-align:center;
+
+    }
+    .navbar a{
+        font-size: 17px;
+    }
+} */
+
+section{
+    background-image: url(../img/lg2.jpg) ;
+    background-size:100% 100% ;
+    height: 560px;
+    width: auto;
+   
+}
+
+.content ul{
+    display: flex;
+    padding: 50px;
+    padding-left: 300px;
+    
+    
+}
+.content ul li{
+    font-size: 70px;
+    color: black;
+    margin-right: 50px;
+    
+}
+.content ul li p{
+    font-size: 40px;
+    padding-top:90px ;
+    margin-right: 50px;
+}
+.about{
+    background-color: rgb(159, 215, 245);
+    height: 100px;
+   
+} 
+.about h3{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.about p{
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#page{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* login page code starts from here */
+.hai{
+    background-image: url(../img/loginbg.jpg) ;
+    background-size:100% 100% ;
+    height: 560px;
+    width: auto;
+
+}
+.aboutlogin{
+    background-color: rgb(159, 215, 245);
+    height: 100px;
+    opacity: 0.3;
+   
+} 
+.aboutlogin h3{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.aboutlogin p{
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+  
+
+.loginbox{
+    margin-left: 50%;
+    height: 490px;
+    background:rgb(246, 100, 209) ;
+    width: 450px;
+    color:black;
+    margin-bottom: 20%;
+
+    top:55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px;
+
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position:absolute;
+    top: 10px;;
+    left:38%
+
+}
+.loginbox h1{
+    margin:0px;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.loginbox p ,a{
+    margin: 0px;
+    padding: 0;
+    font-weight: bold;
+    
+    
+}
+.loginbox input{
+    width: 100%;
+    height:30px;
+    margin-bottom:20px;
+    
+}
+.loginbox input[type="text"],input[type='password']{
+    border:none;
+    border-bottom:1px solid rgb(249, 249, 249);
+    background: transparent;
+    outline:none;
+    height:40px;
+    color:rgb(0, 0, 0);
+    font-size: 16px
+}
+.loginbox input[type="submit"]{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 0px;
+
+}
+
+/*Register page starts from here*/
+
+.regbox{
+    position: relative;
+    height: 500px;
+    background-color:rgb(255, 255, 255,0.7) ;
+    width: 600px;
+    color:black;
+    margin-bottom: 20%;
+    top: 5%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px;
+    margin-left: 500px ;
+   
+}
+.reg{
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.reg h2{
+    padding:10px;
+    text-align: center;
+    font-size: 35px;
+}
+.reg input{
+    border-radius: 5px;
+    padding-left: 3px;
+    margin-right: 6px;
+    padding-right: 3px;
+    
+}
+.reg input[type="submit"]{
+    background-color: rgb(63, 63, 238);
+    color: white;
+    margin-left: 230px;
+    height:30px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
